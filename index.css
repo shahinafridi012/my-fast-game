@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.anton{
+    font-family: "Anton", sans-serif;
+}
+main {
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    justify-content: center;
+background-position: center;
+   
+
+  }
+  .home-area div{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
