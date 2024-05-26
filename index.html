@@ -11,21 +11,21 @@
 </head>
 <body>
     <!-- justify-center text-center oktain dislam ami -->
-    <main  class="min-h-screen bg-[#1E1E1E] bg-no-repeat  ">
-        <section class="home-area hidden anton">
+    <main  class="min-h-screen bg-[#1E1E1E] bg-no-repeat justify-center text-center   ">
+        <section id="home-screen" class="home-area anton text-white">
                     <div class="space-y-5  pt-20">
-                        <h3 class="text-8xl text-extrabold">ALPHABET CLASH PRO GAME</h3>
+                        <h3 class="text-8xl text-extrabold">ALPHABET CLASH PRO </h3>
                         <p>Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
-                        <button class="btn btn-primary bg-slate-50 outline-none text-black border-[none]">Play now</button>
+                        <button onclick="play()" class="btn btn-primary bg-slate-50 outline-none text-black border-[none]">Play now</button>
                     </div>
         </section>
-        <section class="play-ground ">
+        <section id="play-ground" class="play-ground hidden ">
             <!-- point table -->
            <div class="flex flex-col items-center">
              <div class="artboard artboard-horizontal phone-6 border-[20px] rounded-2xl border-[#010313CC] bg-[#FFFFFFB3] mt-20"><div>
                <p class="text-white text-center bg-[#2F2941] w-[35%] mx-auto p-2 rounded-b-2xl">Don't watch keyboard  while playing...</p>
                <div class="flex justify-center items-center h-full">
-                <p class="text-black text-9xl font-extrabold mt-7">Y</p>
+                <p id="screen-latter" class="text-black text-9xl font-extrabold mt-7 uppercase">Y</p>
                </div>
              </div>
             </div>
@@ -80,9 +80,19 @@
                       </button>
                 </div>
         </section>
-        <section class="point-table">
-
+        <section class="point-table text-white flex justify-center items-center min-h-screen hidden">
+              <div class="text-center space-y-5 bg-[#FFFFFF33] rounded-xl p-2">  
+                  <h3 class="text-7xl font-extrabold  ">
+                    <span>Score : </span>
+                    <span>14</span>
+                  </h3>
+                  <button class="btn bg-[white] text-black">play again</button>
+                  <p>Practice will make you Pro</p>
+                 </div>
         </section>
     </main>
+    <script src="/scripts/another.js"></script>
+    <script src="/scripts/index.js"></script>
+  
 </body>
 </html>
