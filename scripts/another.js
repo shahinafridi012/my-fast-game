@@ -23,3 +23,31 @@
 // function play(){
 //     continueGame()
 // }
+// function setBgColor(elementId){
+//   const element = document.getElementById(elementId);
+//   element.classList.add('bg-orange-400');
+
+// }
+// function paly(){
+//     setBgColor(alphaDed);
+// }
+// function handleKeyPress(event){
+//     const pressByMan = event.key;
+//     console.log('player pressed', pressByMan)
+    
+//     // get the expected to press
+//     const theCurRntAlphabet = document.getElementById('screen-latter')
+//     const theAlphaBet = theCurRntAlphabet.innerText;
+//     const theExpectedAlPahBet = theAlphaBet.toLowerCase();
+//     console.log(pressByMan, theExpectedAlPahBet);
+
+//     // check match or not
+
+//     if(pressByMan === theExpectedAlPahBet){
+//         console.log('you win')
+//     }
+//     else{
+//         console.log('you lose')
+
+//     }
+
